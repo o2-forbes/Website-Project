@@ -1,5 +1,24 @@
 body {
-    background-image: linear-gradient(to bottom right, black, white);
+    border: 4px solid white;
+    border-radius: 3px;
+    margin: 20px;
+    background-color: black;
+}
+
+.opener {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: white;
+    max-width: 600px;
 }
 
 .button-div {
