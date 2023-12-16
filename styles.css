@@ -5,79 +5,9 @@ body {
     border-style: dashed;
 }
 
-.opener {
-    background-color: black;
-    text-align: center;
-    align-items: center;
-    letter-spacing: 2px;
-    font-size: 23px;
-    font-family: "puffin-arcade-nerf", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    color: white;
-}
 
-.button-div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-button {
-    color: white;
-    font-family: "puffin-arcade-chrome", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 25px;
-    letter-spacing: 3px;
-    background-color: black;
-    width: 255px;
-    padding-top: 13px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;
-    border: 4px solid white;
-    border-style: dotted;
-    cursor: pointer;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    transition: 0.4s;
-    box-shadow: 3px 3px 4px white;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-button:hover {
-    color: black;
-    background-color: white;
-    border-color: black;
-    box-shadow: 3px 3px 4px black;
-    text-decoration: underline;
-}
-
-button:active {
-    opacity: 0.2;
-}
-
-.button-carp {
-}
-
-.button-carp:active {
-    
-}
-
-.button-type {
-
-}
-
-.button-wire {
-}
-
-.button-ref {
-}
 
 footer {
     color: white;
