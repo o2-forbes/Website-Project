@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, black, white);
+    background-image: linear-gradient(to bottom right, black, white);
 }
 
 .button-div {
@@ -61,6 +61,7 @@ button:active {
 }
 
 footer {
+    background-color: white;
     color: black;
     height: 15px;
     text-align: center;
