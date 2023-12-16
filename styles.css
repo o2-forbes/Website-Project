@@ -2,6 +2,11 @@ body {
     background-color: black;
     border: 5px solid white;
     border-radius: 5px;
+    margin: 20px;
+}
+
+.button-div {
+    display: inline-block;
 }
 
 button {
@@ -23,12 +28,14 @@ button {
     margin-top: 30px;
     margin-bottom: 30px;
     transition: 0.4s;
+    box-shadow: 3px 3px 4px white;
 }
 
 button:hover {
     color: black;
     background-color: white;
     border-color: black;
+    box-shadow: 3px 3px 4px black;
 }
 
 button:active {
