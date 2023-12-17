@@ -329,3 +329,26 @@ footer {
 }
 
 /* WORKSHEETS HTML CODE */
+
+.CARP-text-worksheets1 {
+    background-color: black;
+    text-align: center;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+}
+
+.rep {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    box-sizing: border-box;
+    max-width: 300px;
+    margin: auto;
+}
