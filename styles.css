@@ -259,17 +259,15 @@ footer {
 
 }
 
-.type-text {
+.Type-text-1 {
+    list-style-type: none;
+
     background-color: black;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
     font-size: 23px;
     font-family: "puffin-arcade-nerf", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
-    width: 1400px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
