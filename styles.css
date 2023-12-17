@@ -261,6 +261,8 @@ footer {
 
 .Type-text-1 {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 
     background-color: black;
     text-align: center;
