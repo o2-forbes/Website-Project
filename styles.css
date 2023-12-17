@@ -92,11 +92,12 @@ footer {
 .CARP-poster {
     width: 30%;
     display: block;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
     border-radius: 20px;
     border: 4px solid white;
+    
 }
 
 .back-button {
@@ -116,10 +117,11 @@ footer {
     border: 4px solid white;
     border-style: dotted;
     cursor: pointer;
-    margin-top: 25px;
-    margin-bottom: 30px;
     transition: 0.4s;
     box-shadow: 3px 3px 4px white;
+    margin-top: 12px;
+    margin-bottom: 30px;
     margin-left: 25px;
     margin-right: auto;
+    display: inline-block;
 }
