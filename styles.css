@@ -134,6 +134,7 @@ footer {
 .CARP-text {
     background-color: black;
     text-align: center;
+    text-align: justify;
     letter-spacing: 2px;
     font-size: 23px;
     font-family: "puffin-arcade-nerf", sans-serif;
@@ -150,4 +151,76 @@ footer {
     width: 30%;
     border-radius: 20px;
     border: 4px solid white;
+}
+
+.CARP-opener {
+    background-color: black;
+   text-align: center;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.CARP-p {
+    background-color: black;
+   text-align: left;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.CARP-t {
+    background-color: black;
+   text-align: right;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* TYPE HTML CODE */
+
+.Type-opener {
+    background-color: black;
+   text-align: center;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.axial {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 4px solid white;
+    margin-right: 30px;
+
 }
