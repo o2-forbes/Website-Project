@@ -348,9 +348,12 @@ footer {
     justify-content: center;
     align-items: center;
     border: solid white;
+    border-radius: 20px;
+    border-style: dotted;
     box-sizing: border-box;
     max-width: 300px;
     margin: auto;
+    box-shadow: 3px 3px 4px white;
 }
 
 .wireframe {
