@@ -8,13 +8,16 @@ body {
 .opener {
     background-color: black;
     text-align: center;
-    align-items: center;
     letter-spacing: 2px;
     font-size: 23px;
     font-family: "puffin-arcade-nerf", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .button-div {
@@ -126,19 +129,21 @@ footer {
     border-radius: 20px;
     border: 4px solid white;
     margin-right: 30px;
-    
 }
 
 .CARP-text {
     background-color: black;
     text-align: center;
-    align-items: center;
     letter-spacing: 2px;
     font-size: 23px;
     font-family: "puffin-arcade-nerf", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .CARP-template {
