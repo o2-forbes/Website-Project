@@ -89,15 +89,8 @@ footer {
 
 /* CARP HTML CODE */
 
-.CARP-poster {
-    width: 30%;
-    display: block;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    border: 4px solid white;
-    
+.container {
+    text-align: center;
 }
 
 .back-button {
@@ -119,9 +112,18 @@ footer {
     cursor: pointer;
     transition: 0.4s;
     box-shadow: 3px 3px 4px white;
-    margin-top: 12px;
+    margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 25px;
     margin-right: auto;
     display: inline-block;
+}
+
+.CARP-poster {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 4px solid white;
+    
 }
