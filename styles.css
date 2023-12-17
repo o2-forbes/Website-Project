@@ -284,3 +284,46 @@ footer {
     align-items: center;
     margin-bottom: 30px;
 }
+
+.span-link {
+    color: red;
+    transition: 0.4s;
+    font-family: "puffin-arcade-chrome", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border: none;
+    box-shadow: none;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: auto;
+    text-decoration: underline;
+}
+
+.span-link:hover {
+    cursor: pointer;
+    background-color: black;
+    color: blue;
+}
+
+.span-link:active {
+    opacity: 0.2;
+}
+
+.CARP-text-type {
+    background-color: black;
+    text-align: center;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    margin-left: 30px;
+    margin-right: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
