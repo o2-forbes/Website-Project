@@ -14,8 +14,8 @@ body {
     font-weight: 800;
     font-style: normal;
     color: white;
-    width: 900px;
-    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -141,8 +141,8 @@ footer {
     font-weight: 800;
     font-style: normal;
     color: white;
-    width: 1400px;
-    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -162,8 +162,8 @@ footer {
     font-weight: 800;
     font-style: normal;
     color: white;
-    width: 1400px;
-    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -172,17 +172,19 @@ footer {
 
 .Type-opener {
     background-color: black;
-   text-align: center;
     letter-spacing: 2px;
     font-size: 23px;
     font-family: "puffin-arcade-nerf", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
-    width: 1400px;
-    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .axial {
@@ -199,6 +201,7 @@ footer {
     border-radius: 20px;
     border: 4px solid white;
     margin-right: 30px;
+    margin-left: 30px;
 
 }
 
@@ -207,6 +210,7 @@ footer {
     border-radius: 20px;
     border: 4px solid white;
     margin-right: 20px;
+    margin-left: 30px;
 
 }
 
@@ -217,8 +221,7 @@ footer {
     border-radius: 20px;
     border: 1px solid white;
     margin-right: 30px;
-    margin-top: 20px;
-    height: 455px;
+    margin-left: 30px;
 
 }
 
@@ -227,7 +230,7 @@ footer {
     border-radius: 20px;
     border: 4px solid white;
     margin-right: 30px;
-    margin-top: 30px;
+    margin-left: 30px;
 
 }
 
@@ -236,7 +239,7 @@ footer {
     border-radius: 20px;
     border: 4px solid white;
     margin-right: 20px;
-    height: 450px;
+    margin-left: 30px;
 }
 
 .random {
@@ -246,8 +249,7 @@ footer {
     border-radius: 20px;
     border: 1px solid white;
     margin-right: 30px;
-    margin-top: 20px;
-    height: 455px;
+    margin-left: 30px;
 
 }
 
@@ -255,14 +257,16 @@ footer {
     width: 30%;
     border-radius: 20px;
     border: 4px solid white;
-    margin-top: 30px;
-
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .Type-text-1 {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 
     background-color: black;
     text-align: center;
@@ -272,4 +276,11 @@ footer {
     font-weight: 800;
     font-style: normal;
     color: white;
+}
+
+.type-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
