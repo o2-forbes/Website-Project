@@ -368,3 +368,17 @@ footer {
 
 /* REFLECTION HTM */
 
+.rep-1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    border-radius: 20px;
+    border-style: dotted;
+    box-sizing: border-box;
+    max-width: 300px;
+    margin: 30px 30px 30px 0; 
+    margin-left: 30px;
+    box-shadow: 3px 3px 4px white;
+}
