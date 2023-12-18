@@ -333,17 +333,18 @@ footer {
 .CARP-text-worksheets1 {
     background-color: black;
     text-align: center;
-    text-align: center;
     letter-spacing: 2px;
     font-size: 23px;
     font-family: "puffin-arcade-nerf", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
+    display: block;
 }
 
 .rep {
     flex-wrap: wrap;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,7 +352,7 @@ footer {
     border-radius: 20px;
     border-style: dotted;
     box-sizing: border-box;
-    max-width: 300px;
+    max-width: 455px;
     margin: auto;
     box-shadow: 3px 3px 4px white;
 }
